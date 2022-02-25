@@ -6,12 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
-    
-    <style>
-            .row div {
-                text-align: left;
-            }
-        </style>
 
     <title>お問い合わせ | サンプル株式会社</title>
 </head>
@@ -157,9 +151,8 @@
                         <!-- ラベルとフォーム部品を並べるためにグリッドを使う指定を追加 -->
                         <div class="mb-3 row">
                             <!-- 576px以上の画面幅のとき、3つ分のカラム幅の隙間を表示する設定を追加 -->
-                            <label class="col-3 col-form-label"></label>
                             <!-- さらに、576px以上の画面幅のとき、9つ分のカラム幅で送信ボタンの表示部分の設定を追加 -->
-                            <div class="col-9">
+                            <div class="offset-3 col-9">
                                 <!-- 送信ボタンを緑色にする設定を追加 -->
                                 <button type="submit" class="btn w-100 btn-success">お問い合わせ内容を送信する</button>
                             </div>
